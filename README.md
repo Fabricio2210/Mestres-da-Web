@@ -18,16 +18,10 @@ deletadas.
 	DATA_BASE;
 2. Instale as dependências com o comando:
 npm install
-```
-5. Execute as migrations com o comando:
-```bash
+3. Execute as migrations com o comando:
 npm run typeorm:cli -- migration:run
-```
-6. Inicie a aplicação com o comando:
-```bash
+4. Inicie a aplicação com o comando:
 npm start
-```
-
 - **POST** /users/signup : Cria um novo usuário. 
 - **POST** /users/login : Envie as credenciais do usuário para esta rota. Ela irá gerar o token JWT que deverá ser utilizado em todas as demais rotas.
 - **POST**/products : Cria um produto. Envie os dados do produto a ser adicionado para esta rota. 
